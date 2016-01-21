@@ -43,3 +43,156 @@ table {
 	border-spacing: 0;
 }
 /* END RESET */
+
+/* DEFAULT STYLES */
+
+html {
+   height: 100%;
+   margin: 0; 
+}
+
+body {
+    height: 100%;
+    margin: 0; 
+    background-color: rgb(15, 15, 15);
+}
+
+#wrapper {
+    height: 95%;
+}
+
+/* END DEFAULT STYLES */
+
+
+/* LIST STYLES */
+
+#listWrapper {
+    width: 30em;
+    height: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    background-color: black;
+}
+
+#listWrapper h2 {
+    display: inline;
+}
+
+#listTitle { 
+    color: white;
+    border-style: none; 
+    border-color: Transparent; 
+    overflow: auto;
+    outline: none;
+    background: none;
+    text-align: center;
+    font-size: 1em;
+    font-weight: bold;
+  }
+
+#counter {
+    display: inline-block;
+    background-color: white;
+    border-radius: 50%;
+    padding: 0.25em;
+	width: 1em;
+	height: 1em;
+    font-weight: bold;
+}
+
+#theList {
+    overflow-y: scroll;
+    max-height: 85%;
+}
+
+#theList li {
+    color: white;
+    background-color: orangered;
+    border: 1px solid black;
+    padding: 0.5em;
+    overflow: hidden;
+}
+
+#theList .complete {
+    opacity: 0.2;
+}
+
+/* END LIST */
+
+/* FORM STYLES */
+
+button, #addButton, #doneButton {
+	background-color: orangered;
+	display: inline-block;
+	cursor: pointer;
+	color: rgb(255, 255, 255);
+	font-size: 1em;
+	font-weight: bold;
+    border: none;
+    padding: 0.5em 1em;
+    -moz-border-radius:2px;
+	-webkit-border-radius:2px;
+	border-radius:2px;
+    opacity: 0.5;
+}
+
+button:hover, #addButton:hover, #doneButton:hover {
+    opacity: 1;
+}
+
+button:active, #addButton:active, #doneButton:active {
+	position:relative;
+	top:1px;
+}
+
+#newItemButton {
+    margin: 1em;
+}
+
+#newItemForm {
+    margin: 1em;
+}
+
+/* END FORM STYLES */
+
+/* FOOTER STYLES */
+
+footer {
+    background-color: rgba(255, 255, 255, 0.1);
+    clear: both;
+    width: 100%;
+    height: 5%;
+}
+
+#rightLinks {
+    float: right;
+}
+
+footer a:link {
+    background: none;
+    text-decoration: underline;
+}
+
+footer ul {
+    display: inline;
+    margin: 0.5%;
+    padding: 0;
+    background: none;
+    float: left;
+}
+
+footer li {
+    display: inline;
+    background: none;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+/* END FOOTER STYLES */
+
+/* MISC STYLES */
+
+
+
+/* END MISC STYLES */

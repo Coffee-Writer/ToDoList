@@ -18,18 +18,19 @@
     <!-- /#header -->
     
     <div id="wrapper">
-        <div>
-            
-            <div>
-                <h2>Title</h2>
-                <ul>
-                    <li>Item 1</li>
-                    <li>Item 2</li>
-                </ul>
-                <button id="newItemButton">New Item</button>
-                <form id="newItemForm"></form>
-            </div>
-            
+        <div id="listWrapper">
+            <h2><input type="text" id="listTitle" autofocus placeholder="Enter List Title..."></h2><span id="counter">0</span>
+            <ul id="theList">
+                <li>Click to mark Complete</li>
+                <li>Click again to Remove</li>
+                <li>Give it a try!</li>
+            </ul>
+            <div id="newItemButton"><button id="showForm">NEW ITEM</button></div>
+            <form id="newItemForm">
+                <input type="text" id="itemDescription" placeholder="Add item...">
+                <input type="submit" id="addButton" value="ADD">
+                <input type="button" id="doneButton" value="DONE">
+            </form>
         </div>
     </div>
     <!-- /#wrapper -->
